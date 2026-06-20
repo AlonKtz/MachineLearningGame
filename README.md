@@ -1,5 +1,7 @@
 # 🤖 אַמֵּן את ה-AI · Train the AI
 
+### ▶️ [שחקו עכשיו / Play now](https://alonktz.github.io/MachineLearningGame/)
+
 משחק דפדפן קצר שמלמד את ההבדל בין שלושת סוגי למידת המכונה, דרך התנסות פעילה.
 A short browser game that teaches the three types of machine learning by letting you train each one yourself.
 
