@@ -97,7 +97,7 @@
 </head>
 <body>
 <header>
-  <h1>🤖 אַמֵּן את ה-AI</h1>
+  <h1>🤖 אמן את ה-AI</h1>
   <p>שלוש דרכים שונות שבהן מכונה לומדת — נסה/י כל אחת בעצמך</p>
 </header>
 
@@ -161,11 +161,23 @@
   <!-- SUMMARY -->
   <section class="card" data-step="4" hidden>
     <h2>🎓 סיכום: מה ההבדל?</h2>
-    <p class="lead">אותו רעיון — מכונה שלומדת — אבל הכול תלוי בשאלה אחת: <b>מה נתנו לה?</b></p>
+    <p class="lead">שלוש השיטות חולקות מטרה אחת — מכונה שמשתפרת מתוך ניסיון — ונבדלות בשאלה מהותית אחת: <b>איזה סוג מידע נתנו למכונה כדי שתלמד?</b></p>
     <div class="three">
-      <div class="t blue"><div class="ic">🍿</div><h3>Supervised</h3><p><b>נתנו תשובות.</b> דירגנו כתבות → היא ניבאה מה עוד נאהב.</p></div>
-      <div class="t purple"><div class="ic">👥</div><h3>Unsupervised</h3><p><b>לא נתנו תשובות.</b> היא גילתה לבד קבוצות לקוחות מתוך הנתונים.</p></div>
-      <div class="t orange"><div class="ic">🤖</div><h3>Reinforcement</h3><p><b>נתנו תגמול.</b> הרובוט ניסה, טעה, ולמד את הדרך הבטוחה.</p></div>
+      <div class="t blue">
+        <div class="ic">🍿</div><h3>מונחית<br><small style="color:var(--blue)">Supervised</small></h3>
+        <p><b>מה נתנו: תוויות (תשובות).</b> המכונה לומדת מדוגמאות מתויגות דפוס שמבדיל ביניהן, ומשתמשת בו כדי לנבא תווית לפריט חדש שלא ראתה.</p>
+        <p style="margin-top:8px;font-size:13px;color:var(--muted)">בעולם: סינון ספאם, מנועי המלצה, זיהוי תמונות<br>אלגוריתם: סיווג / רגרסיה</p>
+      </div>
+      <div class="t purple">
+        <div class="ic">👥</div><h3>לא-מונחית<br><small style="color:var(--purple)">Unsupervised</small></h3>
+        <p><b>מה נתנו: נתונים בלבד, בלי תוויות.</b> המכונה מגלה בעצמה מבנה נסתר בנתונים ומקבצת יחד פריטים דומים, בלי שנאמר לה מראש מהן הקבוצות.</p>
+        <p style="margin-top:8px;font-size:13px;color:var(--muted)">בעולם: פילוח לקוחות, זיהוי חריגות, דחיסת מידע<br>אלגוריתם: אשכול (k-means)</p>
+      </div>
+      <div class="t orange">
+        <div class="ic">🤖</div><h3>חיזוק<br><small style="color:var(--orange)">Reinforcement</small></h3>
+        <p><b>מה נתנו: תגמול (פרס ועונש).</b> סוכן פועל בסביבה, מקבל משוב על כל פעולה, ולומד בניסוי וטעייה אסטרטגיה שממקסמת את סך התגמול לאורך זמן.</p>
+        <p style="margin-top:8px;font-size:13px;color:var(--muted)">בעולם: רובוטיקה, משחקים, תמחור דינמי<br>אלגוריתם: Q-learning</p>
+      </div>
     </div>
     <div class="controls"><button class="btn ghost" onclick="go(0)">↻ מהתחלה</button></div>
   </section>
