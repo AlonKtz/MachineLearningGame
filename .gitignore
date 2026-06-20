@@ -2,5 +2,9 @@ node_modules/
 package.json
 package-lock.json
 gen_summary.js
+patch_bundle.js
+mod_*.jsx
+app_decoded.js
+index.bundle.html
 *.docx
 *.pdf
